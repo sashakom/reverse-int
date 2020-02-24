@@ -1,4 +1,5 @@
 module.exports = function reverse (n) {
+  n = Math.abs(n);
   n += '';
   let rev = '';
   for (let i = 1; i <= n.length; i++) {
